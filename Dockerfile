@@ -13,7 +13,7 @@ RUN apt update && \
 	apt install -y  git && \
 	pip3 install --no-cache-dir flask gunicorn gevent virtualenv psutil flask_cors && \
 	cd /usr && \
-	git clone https://github.com/Eagle-OJ/eagle-oj-judger.git --depth=1 && \
+	git clone https://github.com/gaoqi02/oj-judge.git --depth=1 && \
 	cd eagle-oj-judger && \
 	mkdir build && \
 	cd build && \
