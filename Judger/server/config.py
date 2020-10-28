@@ -59,7 +59,7 @@ sys_config = {
     #提交的代码和测试用例存储的位置
     'outfile': '/usr/JudgeResult',
     #是否删除每次所产生的文件
-    'removefile':True,
+    'removefile':False,
     #model包的路径
     'model':'/usr/eagle-oj-judger/Judger/model',
     #server包的路径
